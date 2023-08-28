@@ -1,0 +1,54 @@
+Que es una red?
+Es la interconexion de diferentes puntos, en el caso de red informatica, la conexion de diferentes dispositivos a traves de protocolos de conexion de datos.
+
+Que es el modelo TCP/IP?
+son protocolos de transporte,  que permite mandar datos a travez de internet dirigidos hacia una ip.
+
+Que es una ip?
+Es un identificador unico de cada dispositivo asignado a cada dispositivo conectado a una red para navegar por internet.
+
+Que es el protocolo TCP?
+Es un protocolo de transporte, Transport Control Protocol ubicado en la capa de transporte, usado para la transferencia segura de datos.
+
+Que es el protocolo HTTP?
+Es un modelo por el cual se tranporta texto en el modelo cliente servidor
+
+Puerto del protocolo http y https
+80, 443
+
+Diferencia entre http y https
+https cuenta con cifrado de datos
+
+Que es el modelo cliente servidor
+es lo que se utiliza en el protocolo http que permite la conexion de un cliente (computadora) que se conecta a un servidor en la web, permitiendole pedir y mandar datos a un servidor en la web.
+
+Que es una peticion?
+es cuando el cliente le pide a el servidor un dato en especifico, usualmente este siendo asincrono, y esperando una respuesta del servidor.
+
+Que es una response?
+es la respuesta del servidor al cliente
+
+Secciones de una peticion
+pedirle al servidor un dato
+esperar una respuesta asincrona
+
+Secciones de una respuesta
+esperar una peticion
+generar una respuesta
+mandar la respuesta
+
+Codigo de respuesta 404 y 500
+falla en un request, no se encuentra respuesta al request del cliente
+
+backend
+java-script
+python
+php
+
+front end
+html
+css
+react
+
+que es burp swite
+es un certificado

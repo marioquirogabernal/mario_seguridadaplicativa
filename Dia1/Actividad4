@@ -1,0 +1,16 @@
+Tarea 1
+for i in range (1,101):
+    if (i%3 == 0 and i%5 == 0) or (i%15 == 0):
+	    texto = "fizzbuzz"
+    elif (i%3 == 0):
+	    texto = "fizz"
+    elif (i%5 == 0):
+	    texto = "buzz"
+    else :
+	    texto = i
+    print (texto)
+
+Tarea 2
+for i in range (1,11):
+	for e in range (1,11):
+		print ( str(i) + "x" + str(e) + "=" + str(i*e) )

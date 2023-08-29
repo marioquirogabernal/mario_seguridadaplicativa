@@ -5,3 +5,12 @@ mkdir /home/kali/bak
 cp /home/kali/herramientas/deb/code_1.81.1-1691620686_amd64.deb /home/kali/bak
 sudo dpkg -i /home/kali/herramientas/deb/code_1.81.1-1691620686_amd64.deb
 echo "instalacion exitosa"
+
+
+
+
+
+
+chmod 744 act6.sh
+
+./act6.sh

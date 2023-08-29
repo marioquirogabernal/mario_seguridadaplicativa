@@ -1,1 +1,1 @@
-host_activo=$(nmap localhost| grep "(" | tail -n 1 | cut -d ")" -f 1 | cut -d "(" -f 2) 
+host_activo=$(nmap localhost| grep "(" | tail -n 1 | cut -d ")" -f 1 | cut -d "(" -f 2 | cut -d " " -f 1)  

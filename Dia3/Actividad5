@@ -50,5 +50,5 @@ def menor(a):
     return personatotal
 
 print(promedio(dic))
-print(mayor(dic))
-print(menor(dic))
+print("Los chingones son: "+mayor(dic))
+print("Los pendejos son: "+menor(dic))

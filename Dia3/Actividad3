@@ -7,13 +7,19 @@ print("3 multiplicacion")
 print("4 division")
 numero3 = int(input("seleccione una opcion "))
 
+def suma(numero1,numero2): return numero1 + numero2
+def resta(numero1,numero2): return numero1 - numero2
+def multiplicacion(numero1,numero2): return numero1 * numero2
+def division(numero1,numero2): return numero1 / numero2
+
+
 if (numero3 == 1):
-    resultado= numero1 + numero2
+    resultado= suma(numero1, numero2)
 elif (numero3 == 2):
-    resultado= numero1 - numero2
+    resultado= resta(numero1, numero2)
 elif (numero3 == 3):
-    resultado = numero1 * numero2
+    resultado = multiplicacion(numero1, numero2)
 elif (numero3 == 4):
-    resultado = numero1 / numero2 
+    resultado = division(numero1, numero2) 
 print("El resultado es:")
 print(resultado)

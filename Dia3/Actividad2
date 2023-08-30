@@ -1,6 +1,6 @@
-string = "reconocer"
+string = "La tele letal"
 string2 = string[::-1]
-if (string == string2):
+if (string.lower().replace(" ","") == string2.lower().replace(" ","")):
     print("Es palindromo")
 else:
     print("no es palindromo")

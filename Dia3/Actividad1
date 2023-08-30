@@ -1,0 +1,2 @@
+string="Mario"
+print(string[::-1])

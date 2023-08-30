@@ -1,0 +1,17 @@
+a=[8,9,10,6,6,7,8,9,5,6,7,6,8,8,9,9,5,6,7,9,10,7,8,9,9]
+
+def promedio(a):
+    suma = sum(a)
+    cantidad = len(a)
+    promedio = suma/cantidad
+    return promedio
+
+def reprobaron(a):
+    reprobados = 0
+    for n in a:
+        if (n < 6):
+            reprobados=reprobados+1
+    return reprobados
+
+print("Promedio: "+str(promedio(a)))
+print("Reprobados: "+str(reprobaron(a)))

@@ -1,0 +1,19 @@
+numero1 = float(input ("Dame el primer numero "))
+numero2 = float(input ("Dame otro numero "))
+print("Que quieres hacer?")
+print("1 suma")
+print("2 resta")
+print("3 multiplicacion")
+print("4 division")
+numero3 = int(input("seleccione una opcion "))
+
+if (numero3 == 1):
+    resultado= numero1 + numero2
+elif (numero3 == 2):
+    resultado= numero1 - numero2
+elif (numero3 == 3):
+    resultado = numero1 * numero2
+elif (numero3 == 4):
+    resultado = numero1 / numero2 
+print("El resultado es:")
+print(resultado)

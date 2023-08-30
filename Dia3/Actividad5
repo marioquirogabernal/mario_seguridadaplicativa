@@ -1,0 +1,50 @@
+dic = {
+    "Juan":8,
+    "Giselle":9,
+    "Damian1":5,
+    "Ricardo":6,
+    "Yaotzin":6,
+    "Erick":7,
+    "Mario":8,
+    "Edgar":9,
+    "Fernanda":5,
+    "Daniel":6,
+    "Jesus":7,
+    "Damian":8,
+    "Yemahina":6,
+    "Eduardo":9,
+    "Bryan":9,
+    "Mariano":10,
+    "Alberto":8
+}
+
+def promedio(a):
+    suma = 0
+    for i in a:
+        suma = suma + dic[i]
+    cantidad = len(dic)
+    promedio = suma/cantidad
+    return promedio
+    
+
+def mayor(a):
+    mayor = 0
+    persona = ""
+    for i in a:
+        if (mayor < dic[i]):
+            persona = i
+            mayor = dic[i]
+    return persona
+
+def menor(a):
+    menor = 11
+    persona = ""
+    for i in a:
+        if (menor > dic[i]):
+            persona = i
+            menor = dic[i]
+    return persona
+
+print(promedio(dic))
+print(mayor(dic))
+print(menor(dic))

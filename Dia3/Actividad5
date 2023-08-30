@@ -29,21 +29,25 @@ def promedio(a):
 
 def mayor(a):
     mayor = 0
-    persona = ""
+    personatotal = ""
     for i in a:
         if (mayor < dic[i]):
-            persona = i
             mayor = dic[i]
-    return persona
+    for i in a:
+        if (mayor == dic[i]):
+            personatotal = personatotal + i + " "
+    return personatotal
 
 def menor(a):
     menor = 11
-    persona = ""
+    personatotal = ""
     for i in a:
         if (menor > dic[i]):
-            persona = i
             menor = dic[i]
-    return persona
+    for i in a:
+        if (menor == dic[i]):
+            personatotal = personatotal + i + " "
+    return personatotal
 
 print(promedio(dic))
 print(mayor(dic))
